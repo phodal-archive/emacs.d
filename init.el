@@ -1,4 +1,4 @@
-;;; init.el --- Prelude's configuration entry point.
+;; init.el --- Prelude's configuration entry point.
 ;;
 ;; Copyright (c) 2011-2016 Bozhidar Batsov
 ;;
@@ -150,3 +150,15 @@ by Prelude.")
 
 (require 'zencoding-mode)
 (add-hook 'sgml-mode-hook 'zencoding-mode) ;; Auto-start on any markup modes
+
+
+(require 'helm-config)
+
+(require 'js2-refactor)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-m")
+
+(add-hook 'after-init-hook 'global-company-mode)
+
+(require 'editorconfig)
+(editorconfig-mode 1)
