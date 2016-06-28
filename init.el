@@ -164,3 +164,8 @@ by Prelude.")
 (editorconfig-mode 1)
 
 (setq js-indent-level 2)
+
+(load-theme 'tango-dark t)
+;;(set-default-font "Inconsolata")
+(require 'powerline)
+(powerline-default-theme)
