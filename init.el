@@ -162,3 +162,5 @@ by Prelude.")
 
 (require 'editorconfig)
 (editorconfig-mode 1)
+
+(setq js-indent-level 2)
