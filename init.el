@@ -169,3 +169,6 @@ by Prelude.")
 ;;(set-default-font "Inconsolata")
 (require 'powerline)
 (powerline-default-theme)
+
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(set-face-attribute 'default nil :family "Inconsolata for Powerline" :height 140)
