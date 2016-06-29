@@ -9,6 +9,8 @@ Addtional Package
  - js2-refactor
  - helm
  - editorconfig
+ - zencoding-mode
+ - neotree
 
 License
 ---
