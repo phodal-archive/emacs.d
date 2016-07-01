@@ -172,3 +172,5 @@ by Prelude.")
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (set-face-attribute 'default nil :family "Inconsolata for Powerline" :height 140)
+
+(setq insert-directory-program "/usr/local/bin/gls"); use proper GNU ls
